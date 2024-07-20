@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    color: #000;
+}
+
+.container {
+    text-align: center;
+}
+
+.header-image {
+    width: 100%;
+    height: auto;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.item {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    width: 150px;
+    transition: transform 0.3s;
+}
+
+.item img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s;
+}
+
+.item:hover img {
+    transform: scale(1.1);
+}
+
+.item p {
+    margin-top: 10px;
+}
